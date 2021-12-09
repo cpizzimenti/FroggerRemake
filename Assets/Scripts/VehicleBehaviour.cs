@@ -5,18 +5,25 @@ using UnityEngine;
 public class VehicleBehaviour : MonoBehaviour
 {
     public float Speed = 10;
-    public float Level = 1;
-    public float time = 0;
+    public float time = 1;
+
+    public int lvl = 1;
     
-   // GameObject spawner = GameObject.FindGameObjectsWithTag("Spawner");
-    //GameObject negspawner = GameObject.FindGameObjectsWithTag("-Spawner");
+    void Start()
+    {
+    }
     private void Update()
     {
-        transform.position += transform.right * Time.deltaTime * Speed;
+        transform.position += transform.right * Time.deltaTime * Speed *lvl;
         time += Time.deltaTime;
 
         if (time > 8)
         {Destroy(gameObject);}
+
+        if (time % 10 == 0)
+        {
+            lvl = 20;
+        }
     }
 
     private void OnCollionEnter2D(Collision2D collision)

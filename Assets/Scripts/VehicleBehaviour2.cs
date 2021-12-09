@@ -8,8 +8,6 @@ public class VehicleBehaviour2 : MonoBehaviour
     public float Level = 1;
     public float time = 0;
     
-   // GameObject spawner = GameObject.FindGameObjectsWithTag("Spawner");
-    //GameObject negspawner = GameObject.FindGameObjectsWithTag("-Spawner");
     private void Update()
     {
         transform.position -= transform.right * Time.deltaTime * Speed;

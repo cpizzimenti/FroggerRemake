@@ -9,6 +9,8 @@ TagManager:
   - Road
   - Spawner
   - -Spawner
+  - PCU
+  - PowerUp
   layers:
   - Default
   - TransparentFX

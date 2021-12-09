@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -1278075931506178175}
   m_Layer: 0
   m_Name: PowerUp
-  m_TagString: Untagged
+  m_TagString: PowerUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -122,8 +122,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickup: {fileID: 2265112226619198402, guid: a2e6164419c9fc849a37e117a4d09343, type: 3}
-  powerUp: {fileID: 4492839175149573253}
   car: {fileID: 6935206178472160856, guid: 88bcb34c5a982ba4dbd354b5c88ac9fe, type: 3}
   bus: {fileID: 6935206178472160856, guid: 0690107eba703324796b57bbac921e53, type: 3}
   car2: {fileID: -4767817236701637936, guid: 165c03ea21f5e2847a29fb675dec50e3, type: 3}
   bus2: {fileID: 3873827157207482058, guid: 42b01f993c42b944fb96f125890a5365, type: 3}
+  num: 1
