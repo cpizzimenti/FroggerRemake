@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VehicleController : MonoBehaviour
+public class VehicleController2 : MonoBehaviour
 {
     public GameObject[] spawnees;
     public GameObject[] spawnPoints;
@@ -12,7 +12,7 @@ public class VehicleController : MonoBehaviour
     int randomInt2;
 
     void Start(){
-        spawnPoints = GameObject.FindGameObjectsWithTag("Spawner");
+        spawnPoints = GameObject.FindGameObjectsWithTag("-Spawner");
         InvokeRepeating("SpawnRandom", 0, Random.Range(2,10));
     }
 

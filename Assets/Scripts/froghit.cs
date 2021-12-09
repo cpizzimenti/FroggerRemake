@@ -19,6 +19,11 @@ public class froghit : MonoBehaviour
                 LoadLevel("gameover");
         }
 
+        if (collision.gameObject.CompareTag("Car"))
+        {
+           Destroy(gameObject);
+        }
+
     }
 
     //private void OnCollisionEnter2D(Collision2D collision)

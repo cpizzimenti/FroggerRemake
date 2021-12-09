@@ -7,12 +7,21 @@ public class PowerUp : MonoBehaviour
 {
     public GameObject pickup;
 
+    public VehicleBehaviour car;
+    public VehicleBehaviour bus;
+    public VehicleBehaviour2 car2;
+    public VehicleBehaviour2 bus2;
+
     
     void OnTriggerEnter2D(Collider2D coli)
     {
         if (coli.gameObject.tag == "Frog")
         {
             Pickup(coli);
+            car.Speed--;
+            car2.Speed--;
+            bus.Speed--;
+            bus2.Speed--;
         }
 
     }

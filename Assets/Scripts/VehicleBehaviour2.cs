@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VehicleBehaviour : MonoBehaviour
+public class VehicleBehaviour2 : MonoBehaviour
 {
     public float Speed = 3;
     public float Level = 1;
@@ -12,7 +12,7 @@ public class VehicleBehaviour : MonoBehaviour
     //GameObject negspawner = GameObject.FindGameObjectsWithTag("-Spawner");
     private void Update()
     {
-        transform.position += transform.right * Time.deltaTime * Speed;
+        transform.position -= transform.right * Time.deltaTime * Speed;
         time += Time.deltaTime;
 
         if (time > 15)
