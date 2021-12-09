@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class VehicleBehaviour2 : MonoBehaviour
 {
-    public float Speed = 3;
+    public float Speed = 10;
     public float Level = 1;
     public float time = 0;
     
@@ -15,7 +15,7 @@ public class VehicleBehaviour2 : MonoBehaviour
         transform.position -= transform.right * Time.deltaTime * Speed;
         time += Time.deltaTime;
 
-        if (time > 15)
+        if (time > 8)
         {Destroy(gameObject);}
     }
 
