@@ -18,10 +18,10 @@ public class PowerUpController : MonoBehaviour
 
     void Start()
     {
-        car.Speed = 10;
-        car2.Speed = 10;
-        bus.Speed = 10;
-        bus2.Speed = 10;
+        car.Speed = 30;
+        car2.Speed = 30;
+        bus.Speed = 30;
+        bus2.Speed = 30;
         spawnPowerUp();
     }
 }

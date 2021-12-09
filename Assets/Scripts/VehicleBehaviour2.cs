@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class VehicleBehaviour2 : MonoBehaviour
 {
-    public float Speed = 10;
+    public float Speed = 20;
     public float Level = 1;
     public float time = 0;
     

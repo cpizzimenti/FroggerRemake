@@ -16,10 +16,10 @@ public class PowerUp : MonoBehaviour
     {
         if (coli.gameObject.tag == "Frog")
         {
-            car.Speed = car.Speed/2;
-            car2.Speed = car2.Speed/2;
-            bus.Speed = bus.Speed/2;
-            bus2.Speed = bus2.Speed/2;
+            car.Speed = car.Speed/1.5f;
+            car2.Speed = car2.Speed/1.5f;
+            bus.Speed = bus.Speed/1.5f;
+            bus2.Speed = bus2.Speed/1.5f;
             num = num +1;
             Instantiate(pickup, transform.position, transform.rotation);
             Destroy(gameObject);

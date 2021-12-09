@@ -4,18 +4,13 @@ using UnityEngine;
 
 public class VehicleBehaviour : MonoBehaviour
 {
-    public float Speed = 10;
+    public float Speed = 20;
+    public float Level = 1;
     public float time = 0;
-
-    public FrogMovement lvl;
     
-    void Start()
-    {
-        lvl = GameObject.FindGameObjectWithTag("Frog").GetComponent<FrogMovement>();
-    }
     private void Update()
     {
-        transform.position += transform.right * Time.deltaTime * Speed *lvl.level;
+        transform.position += transform.right * Time.deltaTime * Speed;
         time += Time.deltaTime;
 
         if (time > 8)
