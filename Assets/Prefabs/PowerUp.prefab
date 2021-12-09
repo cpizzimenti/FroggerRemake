@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4492839175149573258}
   - component: {fileID: 4492839175149573259}
   - component: {fileID: 4492839175149573252}
-  - component: {fileID: 6373909515876640343}
+  - component: {fileID: -1278075931506178175}
   m_Layer: 0
   m_Name: PowerUp
   m_TagString: Untagged
@@ -109,7 +109,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &6373909515876640343
+--- !u!114 &-1278075931506178175
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,7 +121,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe1779b2ce7789b459daf9cbb0abb624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pickup: {fileID: 4492839175149573253}
+  pickup: {fileID: 2265112226619198402, guid: a2e6164419c9fc849a37e117a4d09343, type: 3}
+  powerUp: {fileID: 4492839175149573253}
   car: {fileID: 6935206178472160856, guid: 88bcb34c5a982ba4dbd354b5c88ac9fe, type: 3}
   bus: {fileID: 6935206178472160856, guid: 0690107eba703324796b57bbac921e53, type: 3}
   car2: {fileID: -4767817236701637936, guid: 165c03ea21f5e2847a29fb675dec50e3, type: 3}

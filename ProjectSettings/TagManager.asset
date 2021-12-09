@@ -9,7 +9,6 @@ TagManager:
   - Road
   - Spawner
   - -Spawner
-  - Score
   layers:
   - Default
   - TransparentFX

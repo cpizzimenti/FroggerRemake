@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class PowerUp : MonoBehaviour
 {
     public GameObject pickup;
+
     public VehicleBehaviour car;
     public VehicleBehaviour bus;
     public VehicleBehaviour2 car2;
